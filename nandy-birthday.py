@@ -1,4 +1,5 @@
 import random
+import Image
 
 # Create the questions and answers
 questions = [
