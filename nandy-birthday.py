@@ -14,7 +14,7 @@ answers = [
 ]
 
 # Create the jigsaw puzzle
-puzzle_image = "https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg?w=400&h=300&c=crop"
+puzzle_image = "https://sujith999awsbucket.s3.us-east-2.amazonaws.com/aws_completion.PNG"
 puzzle_pieces = []
 for i in range(16):
   puzzle_piece = Image.open(puzzle_image).crop((i * 100, 0, (i + 1) * 100, 100))
