@@ -1,5 +1,5 @@
 import random
-import Image
+from PIL import Image
 
 # Create the questions and answers
 questions = [
