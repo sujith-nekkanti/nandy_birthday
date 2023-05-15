@@ -17,7 +17,7 @@ answers = [
 puzzle_image = "https://sujith999awsbucket.s3.us-east-2.amazonaws.com/IMG20230505161453.jpg"
 puzzle_pieces = []
 for i in range(16):
-  puzzle_piece = Image.open(puzzle_image).crop((i * 100, 0, (i + 1) * 100, 100))
+  puzzle_piece = Image.open(puzzle_image)
   puzzle_pieces.append(puzzle_piece)
 
 # Create the game window
