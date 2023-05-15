@@ -22,7 +22,7 @@ for i in range(16):
   puzzle_pieces.append(puzzle_piece)
 
 # Create the game window
-window = Tk()
+window = tk.Tk()
 window.title("Puzzle Game")
 
 # Create the start button
