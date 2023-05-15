@@ -1,5 +1,6 @@
 import random
 from PIL import Image
+import tkinter as tk
 
 # Create the questions and answers
 questions = [
